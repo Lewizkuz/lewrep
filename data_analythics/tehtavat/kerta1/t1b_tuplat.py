@@ -5,6 +5,6 @@ def Poistup(sana):
         if kirj not in tmp:
             tmp.append(kirj)
     return ''.join(tmp)
-print Poistup("AnaNasak‰‰m‰")
+print Poistup("AnaNasak√§√§m√§")
 print Poistup("Saippuakauppias")
 print Poistup("Floridalainen broileri")

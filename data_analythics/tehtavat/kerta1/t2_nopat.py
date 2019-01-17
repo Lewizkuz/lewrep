@@ -14,4 +14,4 @@ def Nopanheitto():
     return random.randint(1,6)
 nosix = 0
 i = Nosixinfour(1000000)
-print i
+print (i)
