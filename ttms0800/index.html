@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lewizkuz document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="container">
+    <p>8.4.2019 Leevi Kukkonen</p>
+    <h1 class="display-4">Prestashop-verkkosivuston dokumentaatio</h1>
+      <img src="imgs/prestaintro.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Prestashopin alkusivu
+          </figcaption>
+    <p>
+      Prestashop-verkkokauppasivusto on netissä toimiva valmis verkkokauppapaikka, jota voidaan käyttää maksullisesti netistä, tai sitten ladattuna omalle domainpalvelimelle.
+        Tässä dokumentissa selvitämme, miten se asennetaan ja mitä se sisältää.
+    </p>
+      <h3>Sivuston käyttö:</h3>
+      <p>Prestashopin verkkosivulla on kolme vaihtoehtoa: Ready to Go, Custom-made ja With an expert. Käymme näistä ensimmäiset kaksi, koska emme halua ottaa yhteyttä toimistoihin.</p>
+       <img src="imgs/prestaintro2.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Create my store näkymä ja sen vaihtoehdot
+          </figcaption>
+      <h4>Prestashop Ready</h4>
+      <p>PrestaShop Readyssa ei tarvita itse tehdä juuri mitään, mutta siitä maksetaan prestashopille. Kokeilla toki saa maksuttomasti 15 päivää, mutta rekisteröityä sähköpostia voi käyttää vain kerran.</p>
+      <figure class="figure">
+          <img src="imgs/prestaintro3.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Create your account: Sähköposti ja salasana
+          </figcaption>
+      </figure>
+      <img src="imgs/prestaintro4.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Create your account: Henkilötiedot
+          </figcaption>
+      <img src="imgs/prestaintro5.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Create your account: Nimeä kaupppasi
+          </figcaption>
+      <img src="imgs/prestaintro6.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Kaupan nimeäminen
+          </figcaption>
+      <p>Lokalisointi luodaan automaattisesti selaimen mukaan. Tässä tapauksessa se tunnisti vain engalnnin, italian ja ranskan ja antoi nämä kielivaihtoehdoiksi.</p>
+      <img src="imgs/prestaintro7.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Lokalisointi
+          </figcaption>
+      <p>Valinnat on nyt tehty ja sivusto on pian käytettävissä lyhyen latauksen jälkeen.</p>
+      <img src="imgs/prestaintro8.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Prestashop Readyn päävalikko: Ladataan...
+          </figcaption>
+      <p>Latauksen jälkeen päävalikosta voidaan siirtyä muokkaamaan kauppaa, tutkimaan sen ulkonäköä tai valita maksutavan tuleville ajanhetkille.</p>
+      <img src="imgs/prestaintro9.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">PrestaShopin päävalikko
+          </figcaption>
+      <p>Lopullinen sivu näyttää tältä oletuksena</p>
+     <img src="imgs/prestaintro10.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+      <p>Päävalikosta löydämme Manage your website-osion. Hyödynnämme sitä ja muokkaamme sivuamme. Vaihtoehdot ovat suhteellisen pienet, mutta värimuunnokset ovat yllättävän hyvin integroitu.</p>
+      <img src="imgs/prestaintro11.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Muokkaa-Dashboard
+          </figcaption>
+      <img src="imgs/prestaintro12.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Muokkausnäkymä
+          </figcaption>
+      <p>
+          PrestaShop Ready soveltuu käyttöön vain ja ainoastaan jos haluaa vain fiksun näköisen verkkokaupan ilman että tarvitsee ohjelmoida tai hallita tietokantoja. Verkkosivun muokkaaminen tapahtuu verkossa
+      </p>
+      <p>
+          Sellaisena se on yllättävän hidas, eikä sen antamat vaihtoehdot ole kovinkaan syvällisiä. Lisäksi Prestashop maksaa 20 euroa/kuukausi tietokantamakuista, jonka saa omalla domainilla ilmaiseksi.
+      </p>
+      <h4>PrestaShop Custom</h4>
+      <p>Customin asentamiseen tarvitaan nykyisessä versiossa 1.7:</p>
+      <ul class="list-group">
+          <li class="list-group-item">Domain-nimi ja serverikone (Virtuaalikoneen <var>localhost</var> riittää tässä tapauksessa)</li>
+          <li class="list-group-item">FTP-client</li>
+          <li class="list-group-item">Apache2 käynnissä serverikoneessa, katso että olet apachen käyttäjälistassa. ja että omistat filet jonne asennat prestashopin.</li>
+          <li class="list-group-item">MySql-serveri, jolle tunnukset tiedossa. esim root ja sala</li>
+          <li class="list-group-item">php7.0, php7.0-mysql ja myös CURL, DOM, Fileinfo, GD, Intl ja Zip toiminnallisuuksien vuoksi.</li>
+      </ul>
+      <p>
+         Customin lataaminen toimii samalla tavalla kuin Ecommerce: Lataa zip-paketti verkosta osoitteesta:<br><br>
+          <a href="https://www.prestashop.com/en/download">https://www.prestashop.com/en/download</a><br><br>
+      </p>
+      <img src="imgs/prestaintro14.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">PrestaShop Custom -lataussivu: /var/www/html/yourdir/prestashop_1.7.5.zip
+          </figcaption>
+      <p>luo kansio (voit myös käyttää oman käyttäjäsi public_html:ää jos olet ottanut <samp>userdir</samp>:n käyttöön): <br><br>
+          <samp>sudo mkdir /var/www/html/yourdir</samp><br><br>
+          siirrä zip sen sisälle:<br><br>
+          <samp>mv /home/testi/Downloads/prestashop_1.7.5.zip /var/www/html/yourdir/prestashop_1.7.5.zip</samp><br><br>
+          Ja unzip:<br><br>
+          <samp>unzip /var/www/html/yourdir/prestashop_1.7.5.zip</samp><br><br>
+          Ja avaa localhostissa osoitteessa <a href="http://localhost/">http://localhost/</a>
+      </p>
+      <p>Verkossa avautuu latauspalkki, joka lataa tiedostot koneelle. Katso että kansioiden oikeudet ovat kunnossa, jos sivusto se herjaa siitä. ja silloin käy läpi että kaikki aikaisemmat vaiheet ovat kunnossa ja tarvittaessa muuta polun <samp>/var/www/html/omakansio/</samp> oikeudet <samp>chmod</samp> ja <samp>chown</samp> -komennoilla </p>
+      <p>Seuraavaksi täytetään samat asiat kuin aiemmin Prestashop Ready:n kanssa:</p>
+      <figure class="figure">
+          <img src="imgs/prestaintro15.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Asennus: Kieli
+          </figcaption>
+      </figure>
+      <figure class="figure">
+          <img src="imgs/prestaintro16.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Asennus: Lisenssin hyväksyminen
+          </figcaption>
+      </figure>
+      <figure class="figure">
+          <img src="imgs/prestaintro17.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Asennus: Vaatimusten tarkistus
+          </figcaption>
+      </figure>
+      <figure class="figure">
+          <img src="imgs/prestaintro18.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Asennus: Kaupan tiedot</figcaption>
+      </figure>
+      <figure class="figure">
+          <img src="imgs/prestaintro19.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Asennus: Tietokannan kirjautumistiedot
+          </figcaption>
+      </figure>
+      <figure class="figure">
+          <img src="imgs/prestaintro20.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Asennus: Varmistus
+          </figcaption>
+          <p>Asennus suoritettu</p>
+      </figure>
+      <br><br>
+      <h1>Lähteet:</h1>
+      <br><br>
+      <a href="https://devdocs.prestashop.com/1.7/basics/installation/system-requirements/">https://devdocs.prestashop.com/1.7/basics/installation/system-requirements/</a>
+      <a href='https://www.prestashop.com/en'>https://www.prestashop.com/en</a><br>
+      <a href='https://www.siteground.com/tutorials/prestashop/manual-installation/'>https://www.siteground.com/tutorials/prestashop/manual-installation/</a>
+    </body>
+    
+</html>
