@@ -10,310 +10,125 @@
     />
   </head>
   <body class="container">
-    <p>3.12.2018</p>
-    <h1>Prestashop-verkkosivuston dokumentaatio</h1>
-             <img class="img-fluid" src="imgs/prestaintro.PNG" alt="prestashop pääsivu"/>
-      <ul class="Header">
-          <li>Leevi Kukkonen</li>
-      </ul>
+    <p>8.4.2019 Leevi Kukkonen</p>
+    <h1 class="display-4">Prestashop-verkkosivuston dokumentaatio</h1>
+      <img src="imgs/prestaintro.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Prestashopin alkusivu
+          </figcaption>
     <p>
       Prestashop-verkkokauppasivusto on netissä toimiva valmis verkkokauppapaikka, jota voidaan käyttää maksullisesti netistä, tai sitten ladattuna omalle domainpalvelimelle.
-        Tässä dokumentissa selvitämme, miten se asennetaan, mikä sen rakenne on ja mitä se sisältää.
+        Tässä dokumentissa selvitämme, miten se asennetaan ja mitä se sisältää.
     </p>
       <h3>Sivuston käyttö:</h3>
-      <p>Prestashopin verkkosivulla on kolme vaihtoehtoa:</p>
-       <img class="img-fluid" src="imgs/prestaintro2.PNG" alt="prestashop pääsivu"/>
-      <ol>
-          <li>Käytä Presta</li>
-          <img class="img-fluid" src="imgs/prestaintro2.PNG" alt="prestashop pääsivu"/>
-      </ol>
-    <p>
-      Sivustoon tarvitaan on seuraavat: 
-    </p>
-      <ul>
-      <li>Tallenna Zip</li>
-      <li>asdasdasd</li>
-      <li>asdasdasd</li>
-      <li>asdasdasd</li>
-      <li>asdasdasd</li>
-      </ul>
-    <p>
-      Pääkomponentti on App.js, johon ladataan React-router ominaisuudella seuraavan sivun komponentit. Täten sivustolla
-      ei tarvitse luoda aina uutta html-dokumenttia. Ostoskori-komponentissa tarvitaan local storage -ominaisuuksia,
-      joilla sessiossa päivitetään ostoskori-ikoni, sekä päivitetään ostoskoriin lisätyt tuotteet.
-    </p>
-    <p>Sivuston ulkonäkö on luotu hyödyntäen Bootstrap kirjastoja. Sama koskee tätä dokumenttia.</p>
-    <h2>Ajankäyttö</h2>
-    <p>
-
-        Sivuston ulkonäkö on luotu hyödyntäen Bootstrap-kirjastoa ja sass-esiprosessoria. Sivustossa toistuvat arvot on tallennettu vakiomuuttujiin variables.scss-tiedostoon. Sivustot skaalautuvat sujuvasti mobiilikäyttöliittymästä työpöytä-näkymään. Sivuston container-elementtiin on määritelty selkeät rajat jotta mikään näkymä ei laajene liikaa vaakasuuntaan.
-    </p>
-    <h2>Arvio</h2>
+      <p>Prestashopin verkkosivulla on kolme vaihtoehtoa: Ready to Go, Custom-made ja With an expert. Käymme näistä ensimmäiset kaksi, koska emme halua ottaa yhteyttä toimistoihin.</p>
+       <img src="imgs/prestaintro2.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Create my store näkymä ja sen vaihtoehdot
+          </figcaption>
+      <h4>Prestashop Ready</h4>
+      <p>PrestaShop Readyssa ei tarvita itse tehdä juuri mitään, mutta siitä maksetaan prestashopille. Kokeilla toki saa maksuttomasti 15 päivää, mutta rekisteröityä sähköpostia voi käyttää vain kerran.</p>
+      <figure class="figure">
+          <img src="imgs/prestaintro3.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Create your account: Sähköposti ja salasana
+          </figcaption>
+      </figure>
+      <img src="imgs/prestaintro4.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Create your account: Henkilötiedot
+          </figcaption>
+      <img src="imgs/prestaintro5.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Create your account: Nimeä kaupppasi
+          </figcaption>
+      <img src="imgs/prestaintro6.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Kaupan nimeäminen
+          </figcaption>
+      <p>Lokalisointi luodaan automaattisesti selaimen mukaan. Tässä tapauksessa se tunnisti vain engalnnin, italian ja ranskan ja antoi nämä kielivaihtoehdoiksi.</p>
+      <img src="imgs/prestaintro7.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Lokalisointi
+          </figcaption>
+      <p>Valinnat on nyt tehty ja sivusto on pian käytettävissä lyhyen latauksen jälkeen.</p>
+      <img src="imgs/prestaintro8.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Prestashop Readyn päävalikko: Ladataan...
+          </figcaption>
+      <p>Latauksen jälkeen päävalikosta voidaan siirtyä muokkaamaan kauppaa, tutkimaan sen ulkonäköä tai valita maksutavan tuleville ajanhetkille.</p>
+      <img src="imgs/prestaintro9.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">PrestaShopin päävalikko
+          </figcaption>
+      <p>Lopullinen sivu näyttää tältä oletuksena</p>
+     <img src="imgs/prestaintro10.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+      <p>Päävalikosta löydämme Manage your website-osion. Hyödynnämme sitä ja muokkaamme sivuamme. Vaihtoehdot ovat suhteellisen pienet, mutta värimuunnokset ovat yllättävän hyvin integroitu.</p>
+      <img src="imgs/prestaintro11.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Muokkaa-Dashboard
+          </figcaption>
+      <img src="imgs/prestaintro12.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Muokkausnäkymä
+          </figcaption>
       <p>
-          Ryhmäläiset ovat tyytyväisiä aikaansaannokseen, sekä omaan työpanokseensa. Projektissa toiset ryhmäläiset painottivat enemmän dokumenttipuoleen ja toiset enemmän puhtaaseen ohjelmointiin, mutta lopulta kaikki kuitenkin tekivät kaikkia osa-alueita. Lopputyö on laaja, mutta voisi olla vielä kattavampi ryhmän koon huomioon ottaen. Buildin tekeminen jäi viime hetkille.
+          PrestaShop Ready soveltuu käyttöön vain ja ainoastaan jos haluaa vain fiksun näköisen verkkokaupan ilman että tarvitsee ohjelmoida tai hallita tietokantoja. Verkkosivun muokkaaminen tapahtuu verkossa
       </p>
-      <table class="table">
-          <tr>
-              <th>Nimi</th>
-              <th>Arvosanaehdotus</th>
-              <th>Perustelut</th>
-          </tr>
-           <tr>
-              <td>Aleksi</td>
-              <td>2</td>
-              <td>Teki oman osansa ohjelmoinnista. Keskittyi dokumentointiin.</td>
-          </tr>
-           <tr>
-              <td>Dmitry</td>
-              <td>5</td>
-              <td>Alusti git-projektin ja suurimman osan tiedostoista. Eniten koodausta koko porukasta. Keskittyi enemmän mobiilinäkymään ja React-rakenteisiin.</td>
-          </tr>
-           <tr>
-              <td>Jouni</td>
-              <td>5</td>
-              <td>Ohjelmoi hyvin ja keksi hyviä ideoita, kunka asiat voitaisiin tehdä paremmin. Keksi suurimman osan sivuston ulkoasusta ja toteutti tablettinäkymän</td>
-          </tr>
-           <tr>
-              <td>Leevi</td>
-              <td>4</td>
-              <td>Teki oman osansa ohjelmoinnista. Keskittyi suunnitteluun, rajauksiin ja bootstrap-ominaisuuksiin. Toteutti desktop-osuuden.</td>
-          </tr>
-      </table>
-    <h2>Projektin tiedostot</h2>
-    <table class="table">
-      <tr>
-        <th>Tiedosto</th>
-        <th>Kuvaus</th>
-        <th>Tekijät</th>
-      </tr>
-      <tr>
-        <td>package.json</td>
-        <td>
-          Projektin perustiedot, esim. versiotiedot, private-asetuksien arvot, importatut kirjastot ja muokkaajien
-          nimet. Gitin automaattisesti projektin luomisessa generoima tiedosto.
-        </td>
-        <td>Kaikki</td>
-      </tr>
-      <tr>
-        <td>package-lock.json</td>
-        <td>Automaattisesti generoitu json-tiedosto package-json tiedoston muokkaukseen npm:n toimesta.</td>
-        <td>Kaikki</td>
-      </tr>
-      <tr>
-        <td>README.md</td>
-        <td>
-          Tekstitiedosto, joka kertoo kaikki tarvittavat npm-komennot ohjelman käynnistämiseen käyttäen
-          Node.js-kirjastoa. Tarkoitettu sekä käyttäjille että ohjelman koodaajille.
-        </td>
-        <td>Dmitry</td>
-      </tr>
-      <tr>
-        <td>public</td>
-        <td>Julkisten tiedostojen kansio.</td>
-        <td>Kaikki</td>
-      </tr>
-      <tr>
-        <td>src</td>
-        <td>Tämän sivuston kansio.</td>
-        <td>Kaikki</td>
-      </tr>
-    </table>
-
-    <h3>public-kansio</h3>
-    <table class="table">
-      <tr>
-        <th>Tiedosto</th>
-        <th>Kuvaus</th>
-        <th>Tekijät</th>
-      </tr>
-      <tr>
-        <td>index.html</td>
-        <td>
-          Alkusivusto, jolle lopullinen projekti tuodaan. Sisältää "Root"-divin, jonne tuodaan lopullinen sivu
-          Reactilla.
-        </td>
-        <td>Dmitry</td>
-      </tr>
-    </table>
-
-    <h3>src-kansio</h3>
-    <table class="table">
-      <tr>
-        <th>Tiedosto</th>
-        <th>Kuvaus</th>
-        <th>Tekijät</th>
-      </tr>
-      <tr>
-        <td>App.scss</td>
-        <td>Pääohjelman tyylitiedosto, joka sisältää esiprosessorin </td>
-        <td>Kaikki</td>
-      </tr>
-      <tr>
-        <td>App.js</td>
-        <td>
-          React-komponentti, joka käsittää pääsivuston. Lataa itseensä komponenttikansion skriptit, tyylitiedostot,
-          bootstrapin animointiskriptit. React-route-ominaisuudella voidaan ladata oikea sivusto komponenttikansiosta.
-        </td>
-        <td>Kaikki</td>
-      </tr>
-      <tr>
-        <td>index.css</td>
-        <td>
-          Aloitussivuston tyylitiedosto. Lataa fontit, nollaa marginaalit ja paddingin sekä asettaa code-luokan fontin.
-        </td>
-        <td>Dmitry</td>
-      </tr>
-      <tr>
-        <td>index.js</td>
-        <td>Alkusivuston tiedosto, jossa ladataan React ja App.js sivuston käynnistämiseen.</td>
-        <td>Dmitry</td>
-      </tr>
-      <tr>
-        <td>serviceWorker.js</td>
-        <td>
-          Vapaaehtoinen skripti, joka antaa sivustolle paikallisen toimivuuden (ilman verkkoa). Sivusto nollautuu
-          ainoastaan, jos kaikki sivuston tietoja sisältävät välilehdet on suljettu.
-        </td>
-        <td>Dmitry</td>
-      </tr>
-      <tr>
-        <td>components</td>
-        <td>
-          Komponenttikansio, joka sisältää kaikki sivustolla käytetyt komponentit, esimerkiksi navigation-barin.
-          Jokaisella komponentilla on aina oma javascript ja css-tiedosto omalla nimellään.
-        </td>
-        <td>Dmitry</td>
-      </tr>
-      <tr>
-        <td>documents</td>
-        <td>Tämän sivuston sisältävä kansio.</td>
-        <td>Aleksi / Jouni / Leevi</td>
-      </tr>
-      <tr>
-        <td>scss</td>
-        <td>
-          Sisältää variables.scss-kansion joka pitää sisällään variables.scss-tiedoston, jossa säilytetään kaikki tarvittavat muuttujat.  
-        </td>
-        <td>Dmitry / Leevi / Jouni</td>
-      </tr>
-    </table>
-
-    <h3>documents-kansio</h3>
-    <table class="table">
-      <tr>
-        <th>Tiedosto</th>
-        <th>Kuvaus</th>
-        <th>Tekijät</th>
-      </tr>
-
-      <tr>
-        <td>presentation.html</td>
-        <td>Tämän sivuston html-tiedosto. Käyttää Bootstrapia tyylimäärittelyihin.</td>
-        <td>Aleksi / Leevi</td>
-      </tr>
-    </table>
-
-    <h3>components-kansio</h3>
-    <table class="table">
-      <tr>
-        <th>Tiedosto</th>
-        <th>Kuvaus</th>
-        <th>Tekijät</th>
-      </tr>
-      <tr>
-        <td>Collection.js</td>
-        <td>
-          Collection-komponentti määrittelee Collection-sivun sisällön, johon kuuluu komponentit navigation ja Itemlist.
-          Collection-sivusto on ns. Pääsivu, johon päädytään oletuksena.
-        </td>
-        <td>Aleksi / Dmitry</td>
-      </tr>
-      <tr>
-        <td>Counter.js</td>
-        <td>
-          Komponentti, jota käytetään laskurina navigation-barissa. Laskuri kasvaa aina kun tuote lisätään ostoskoriin
-          (sama tuote voi olla useita kertoja).
-        </td>
-        <td>Dmitry</td>
-      </tr>
-      <tr>
-        <td>DropList.js</td>
-        <td>Komponentti, jolla luodaan painikkeella avautuva lista, jolla valitaan tuotteen koko.</td>
-
-        <td>Jouni</td>
-      </tr>
-      <tr>
-        <td>Item.js</td>
-        <td>
-          Item-komponentin React-skripti. Käytetään, kun halutaan luoda Item-luokan komponentti toisessa tiedostossa.
-        </td>
-        <td>Dmitry</td>
-      </tr>
-      <tr>
-        <td>ItemInfo.js</td>
-        <td>
-          Komponentti, joka listaa parametrina saadun Item-komponentin jäsenen ja listaa sen tarkemmat tiedot sivustolle
-          dropdown-valikkona. Muita käytettyjä koponentteja ovat Navigation ja Droplist.
-        </td>
-        <td>Aleksi / Dmitry</td>
-      </tr>
-      <tr>
-        <td>ItemList.js</td>
-        <td>
-          React-komponentti, jossa listataan JSON-tiedostosta löydetty tieto ja luodaan sen mukaan Item-komponentteja.
-          JSON-file, jota projektissa käytetään löytyy
-          <a href="'https://5bf089690756d2001311987d.mockapi.io/shoes">tästä</a>.
-        </td>
-        <td>Aleksi / Dmitry</td>
-      </tr>
-      <tr>
-        <td>Navigation.js</td>
-        <td>
-          React-komponentti, jossa luodaan sivustolle Navigation-palkki. Palkki sijoittuu sivun yläosaan ja on käytössä
-          kaikissa, paitsi kirjautumis-, rekisteröitymis- ja kansilehtinäkymässä.
-        </td>
-        <td>Dmitry</td>
-      </tr>
-      <tr>
-        <td>Registration.js</td>
-        <td>
-          Komponentti, joka luo rekisteröitymis-näkymän, johon pääsee kirjautumisnäkymästä. Input-kentät on pakko
-          täyttää.
-        </td>
-        <td>Jouni</td>
-      </tr>
-      <tr>
-        <td>Router.js</td>
-        <td>
-          Komponentti, jonka avulla voidaan muuttaa sivunäkymää yhdestä toiseen. Käytännössä luo linkin, jota painamalla
-          uusi näkymä avautuu.
-        </td>
-        <td>Dmitry</td>
-      </tr>
-      <tr>
-        <td>ShoppingCart.js</td>
-        <td>
-          Komponentti, jossa luodaan ostoskärry-näkymä. Laskee ostoskärryyn lisättyjen tuotteiden kokonaishinnan, sekä
-          tuotehinnan, jos samaa tuotetta on lisätty useampi kappale. Tyhjässä ostoskärryssä ilmestyy teksti: "Shopping
-          cart is empty".
-        </td>
-        <td>Dmitry / Leevi</td>
-      </tr>
-      <tr>
-        <td>SignIn.js</td>
-        <td>
-          Komponentti, joka luo Sign-in-näkymän, jossa käyttäjä kirjautuu sisään. Tässä versiossa log in ei vielä tee
-          mitään, mutta se korvataan napilla kun kirjautumien saadaan toimiaan. Tästä näkymästä pääsee myös
-          rekisteröitymisnäkymään.
-        </td>
-        <td>Jouni</td>
-      </tr>
-      <tr>
-        <td>StartPage.js</td>
-        <td>Komponentti, joka luo Kansilehti-sivun näkymän. Kansilehti katoaa nuoli-painiketta klikattaessa eikä ilmaannu uudestaan ilman sivun uudelleenlataamista.</td>
-
-        <td>Dmitry / Jouni</td>
-      </tr>
-    </table>
-  </body>
+      <p>
+          Sellaisena se on yllättävän hidas, eikä sen antamat vaihtoehdot ole kovinkaan syvällisiä. Lisäksi Prestashop maksaa 20 euroa/kuukausi tietokantamakuista, jonka saa omalla domainilla ilmaiseksi.
+      </p>
+      <h4>PrestaShop Custom</h4>
+      <p>Customin asentamiseen tarvitaan nykyisessä versiossa 1.7:</p>
+      <ul class="list-group">
+          <li class="list-group-item">Domain-nimi ja serverikone (Virtuaalikoneen <var>localhost</var> riittää tässä tapauksessa)</li>
+          <li class="list-group-item">FTP-client</li>
+          <li class="list-group-item">Apache2 käynnissä serverikoneessa, katso että olet apachen käyttäjälistassa. ja että omistat filet jonne asennat prestashopin.</li>
+          <li class="list-group-item">MySql-serveri, jolle tunnukset tiedossa. esim root ja sala</li>
+          <li class="list-group-item">php7.0, php7.0-mysql ja myös CURL, DOM, Fileinfo, GD, Intl ja Zip toiminnallisuuksien vuoksi.</li>
+      </ul>
+      <p>
+         Customin lataaminen toimii samalla tavalla kuin Ecommerce: Lataa zip-paketti verkosta osoitteesta:<br><br>
+          <a href="https://www.prestashop.com/en/download">https://www.prestashop.com/en/download</a><br><br>
+      </p>
+      <img src="imgs/prestaintro14.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">PrestaShop Custom -lataussivu: /var/www/html/yourdir/prestashop_1.7.5.zip
+          </figcaption>
+      <p>luo kansio (voit myös käyttää oman käyttäjäsi public_html:ää jos olet ottanut <samp>userdir</samp>:n käyttöön): <br><br>
+          <samp>sudo mkdir /var/www/html/yourdir</samp><br><br>
+          siirrä zip sen sisälle:<br><br>
+          <samp>mv /home/testi/Downloads/prestashop_1.7.5.zip /var/www/html/yourdir/prestashop_1.7.5.zip</samp><br><br>
+          Ja unzip:<br><br>
+          <samp>unzip /var/www/html/yourdir/prestashop_1.7.5.zip</samp><br><br>
+          Ja avaa localhostissa osoitteessa <a href="http://localhost/">http://localhost/</a>
+      </p>
+      <p>Verkossa avautuu latauspalkki, joka lataa tiedostot koneelle. Katso että kansioiden oikeudet ovat kunnossa, jos sivusto se herjaa siitä. ja silloin käy läpi että kaikki aikaisemmat vaiheet ovat kunnossa ja tarvittaessa muuta polun <samp>/var/www/html/omakansio/</samp> oikeudet <samp>chmod</samp> ja <samp>chown</samp> -komennoilla </p>
+      <p>Seuraavaksi täytetään samat asiat kuin aiemmin Prestashop Ready:n kanssa:</p>
+      <figure class="figure">
+          <img src="imgs/prestaintro15.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Asennus: Kieli
+          </figcaption>
+      </figure>
+      <figure class="figure">
+          <img src="imgs/prestaintro16.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Asennus: Lisenssin hyväksyminen
+          </figcaption>
+      </figure>
+      <figure class="figure">
+          <img src="imgs/prestaintro17.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Asennus: Vaatimusten tarkistus
+          </figcaption>
+      </figure>
+      <figure class="figure">
+          <img src="imgs/prestaintro18.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Asennus: Kaupan tiedot</figcaption>
+      </figure>
+      <figure class="figure">
+          <img src="imgs/prestaintro19.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Asennus: Tietokannan kirjautumistiedot
+          </figcaption>
+      </figure>
+      <figure class="figure">
+          <img src="imgs/prestaintro20.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption lead text-right">Asennus: Varmistus
+          </figcaption>
+          <p>Asennus suoritettu</p>
+      </figure>
+      <br><br>
+      <h1>Lähteet:</h1>
+      <br><br>
+      <a href="https://devdocs.prestashop.com/1.7/basics/installation/system-requirements/">https://devdocs.prestashop.com/1.7/basics/installation/system-requirements/</a>
+      <a href='https://www.prestashop.com/en'>https://www.prestashop.com/en</a><br>
+      <a href='https://www.siteground.com/tutorials/prestashop/manual-installation/'>https://www.siteground.com/tutorials/prestashop/manual-installation/</a>
+    </body>
+    
 </html>
