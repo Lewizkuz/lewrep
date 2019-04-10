@@ -3,11 +3,14 @@ Course: TTMS0800 Web-palvelun hallinta
 
 ... KURSSIN TEHTÄVÄT ...
 
-Tehtyjä harjoitustehtäviä yhteensä:   x kpl
+Tehtyjä harjoitustehtäviä yhteensä:   36 kpl
 Tarjolla olleita harjoitustehtäviä:   56 kpl (Joista bonareita 7)
-x/56 => yy%
+36/56
 
-H1 tasks 14/14
+H1 tasks 14/14:
+
+	Virtuaalikone on ja pyörii
+
 H2 tasks 11/14:
 
 1.	30  sudo apt install chromium-browser
@@ -101,10 +104,6 @@ root      7874  0.0  0.0  24048  2384 ?        Ss   18:47   0:00 /usr/sbin/vsftp
 
 sudo systemctl is-enabled vsftpd.service
 enabled
-
-
-
-3.
 
 		
 	
