@@ -14,7 +14,7 @@
     * Use phpmyadmin if you feel efficient. 
     * Putty if you feel adventurous.
     * Mysql Workbench if you feel like spreading butter with a broadsword. 
-    * No judging you do you girl/boy/non-binary friend!
+      * No judging you do you girl/boy/non-binary friend!
 8. Change your url on the siteurl and home on the wp_options table on the wp-database.
     * You know its wrong if it has 192.168.50.xxx or whatever on it. it should be your computers own ip or localhost.
 9. Open wordpress on your localhost/wordpress/, login, and profit 
