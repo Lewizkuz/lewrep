@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PersonApp
+{
+    class Teacher : Person
+    {
+        public string Room { get; set; }
+         public Teacher()
+        {
+
+        }
+        public Teacher(string firstName, string lastName, string room)
+            :base(firstName, lastName)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+            Room = room;
+        }
+        public override string ToString()
+        {
+            return base.ToString();
+        }
+    }
+}

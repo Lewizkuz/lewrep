@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="841mm"
+   height="1189mm"
+   viewBox="0 0 841 1189"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="lil boy.svg">
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 594.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="841 : 594.5 : 1"
+       inkscape:persp3d-origin="420.5 : 396.33333 : 1"
+       id="perspective3763" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.32"
+     inkscape:cx="807.74857"
+     inkscape:cy="3680.7528"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="437.38931,532.06053"
+       orientation="1,0"
+       id="guide6349"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="405.14322,385.29947"
+       orientation="0,1"
+       id="guide6357"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="398.32193,428.70767"
+       orientation="0,1"
+       id="guide6359"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="398.11522,451.4453"
+       orientation="0,1"
+       id="guide6361"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="325.35481,406.79686"
+       orientation="0,1"
+       id="guide6365"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="489.47915,547.35676"
+       orientation="1,0"
+       id="guide6371"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,892)">
+    <g
+       id="g6434"
+       transform="translate(-261.27604,-485.34504)">
+      <path
+         sodipodi:nodetypes="ccccccscccc"
+         inkscape:connector-curvature="0"
+         id="path6396"
+         d="m 455.22121,-322.96104 v -22.73763 l 52.08984,45.06185 -52.08984,43.61489 -10e-6,-22.32422 h -43.02247 c -8.26519,0 -25.61895,6.83868 -25.07646,28.02201 0.79206,30.92863 60.27368,35.11078 42.05402,46.59876 l -66.14584,1e-5 c -28.91803,-8.70243 -60.04949,-105.41993 38.65399,-118.23567 z"
+         style="fill:#009b45;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccccscccc"
+         inkscape:connector-curvature="0"
+         id="path6396-7"
+         d="m 390.80612,-139.05061 v 22.73763 l -52.08984,-45.06185 52.08984,-43.61489 10e-6,22.32422 c 19.43034,0 19.43034,0 43.02248,0 8.26519,0 25.61895,-6.83868 25.07646,-28.02201 -0.79206,-30.92863 -60.27369,-35.11078 -42.05402,-46.59876 l 66.14584,-10e-6 c 26.87175,10.74871 60.04949,105.41993 -38.65399,118.23567 z"
+         style="fill:#ffc400;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

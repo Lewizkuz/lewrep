@@ -1,0 +1,17 @@
+﻿<Window x:Class="T2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:T2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Margin="0,0,0,0">
+        <TextBlock Margin="280,51,64,240" Text="Syötä luku kenttään"></TextBlock>
+        <TextBlock Margin="62,51,282,235" Text="Syötä luku kenttään"/>
+        <TextBlock Margin="62,146,331,142" Text="Syötteiden summa on:"/>
+        <TextBlock x:Name="SumBlock" Margin="62,177,196,45" Text="0" TextAlignment="Center" FontSize="48"/>
+        <TextBox x:Name="InputBox1" Margin="62,89,282,194" TextChanged="InputBox1_TextChanged"/>
+        <TextBox x:Name="InputBox2" Margin="280,89,64,194" TextChanged="InputBox2_TextChanged"/>
+    </Grid>
+</Window>

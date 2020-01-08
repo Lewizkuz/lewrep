@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--Kielen ja html-dokumentin alun määritelmä-->
+<html lang="fi">
+<head>
+    <!--Sivun otsikko-->
+    <title>TTMS0800 harjoitustyö</title>
+    <link rel="stylesheet" href="styles/style.css"/>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+    <body>
+        <div id="website_container">
+        </div>
+    </body>
+    <script type="text/babel">
+        class Header extends React.Component {
+            render() {
+                return (<div>
+                    <h1 class="header">ShoeFlex</h1>
+                    <h2 class="header">Check out our collection</h2>
+                    <img src="images/svgs/arrow.svg" alt='arrow'></img>
+                </div>
+                );
+            }
+        } 
+        class Section extends React.Component {
+            render() {
+                return (<section>
+                    <section></section>
+                </section>)
+            }
+        }
+        ReactDOM.render (
+            <Header/>, 
+            document.getElementById("website_container")
+        );
+    </script>
+</html>

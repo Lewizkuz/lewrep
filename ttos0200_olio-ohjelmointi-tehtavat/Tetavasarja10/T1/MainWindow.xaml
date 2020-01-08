@@ -1,0 +1,15 @@
+﻿<Window x:Class="T1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:T1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid x:Name="Container" Margin="0,0,-8,0">
+        <Button x:Name="AddCar" Margin="116,52,300,204" Content="Car" FontSize="20" Click="AddCar_Click"/>
+        <Button x:Name="AddTruck" Margin="300,52,116,204" Content="Trucks" FontSize="20" Click="TruckCount1_Click"/>
+        <TextBlock x:Name="CarCount" Text="0" Margin="138,145,326,118" TextAlignment="Center" LineHeight="36" FontSize="36"/>
+        <TextBlock x:Name="TruckCount" Text="0" Margin="327,145,137,118" TextAlignment="Center" LineHeight="36" FontSize="36"/>
+    </Grid>
+</Window>
